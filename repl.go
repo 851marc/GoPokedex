@@ -1,11 +1,12 @@
 package main
 
 import (
-	"MODULE_NAME/internal/pokeapi"
 	"bufio"
 	"fmt"
 	"os"
 	"strings"
+
+	"github.com/851marc/GoPokedex/internal/pokeapi"
 )
 
 func startRepl(config *config) {

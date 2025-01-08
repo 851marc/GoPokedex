@@ -1,10 +1,11 @@
 package pokeapi
 
 import (
-	"MODULE_NAME/internal/pokecache"
 	"io"
 	"net/http"
 	"time"
+
+	"github.com/851marc/GoPokedex/internal/pokecache"
 )
 
 // Client -
